@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_DB=dpd
+      - POSTGRES_PASSWORD=1234
+    ports:
+      - "8001:5432"

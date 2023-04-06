@@ -38,4 +38,4 @@ The application is running on port 3000 by default, visit here: http://localhost
 
 The application stores details about Persons. Users are able to create, modify and depersonalize persons as well as list them.
 
-**Pleas use ";" delimiter in Address and Phone fields when you want to add more than one line**
+**Before editing a row, please collapse all expanded rows. Pleas use ";" delimiter in Address and Phone fields when you want to add more than one line.**

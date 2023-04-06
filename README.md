@@ -6,6 +6,10 @@ The application provides all the funcionality to manage Persons.
 
 The website is mobile-friendly.
 
+## About
+
+The application is written with Java 17, Spring Boot 3.
+
 ## Configuration
 
 These steps require to have Docker installed on your system. You can download Docker from here: https://www.docker.com/products/docker-desktop/
@@ -27,6 +31,8 @@ After that please build and run the frontend Docker image with the following com
 `docker-compose up -d`
 
 The application is running on port 3000 by default, visit here: http://localhost:3000.
+
+**CORS is enabled only to http://localhost:3000 in the backend.**
 
 ## Functions
 
